@@ -11,8 +11,13 @@
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', function () {
     return view('app');
+=======
+Route::get('/interests', function () {
+    return view('interests');
+>>>>>>> 2a922fa6b3a062fee26a8abfd7c56946a0337899
 });
 
 Auth::routes();

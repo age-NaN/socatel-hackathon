@@ -21,6 +21,10 @@ window.Vue = require('vue');
 
 Vue.component('main-nav', require('./components/MainNav.vue').default);
 Vue.component('card-list', require('./components/CardList.vue').default);
+Vue.component('activities-component', require('./components/ActivitiesComponent.vue').default);
+Vue.component('actions-component', require('./components/ActionsComponent.vue').default);
+Vue.component('cities-component', require('./components/CityComponent.vue').default);
+Vue.component('button-search-component', require('./components/ButtonSearch.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
